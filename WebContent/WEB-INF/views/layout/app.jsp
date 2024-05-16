@@ -3,12 +3,14 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <title>タスクタスクタスク</title>
+        <title>なさねばならぬこと一覧</title>
+        <link rel="stylesheet" href="<c:url value='/css/reset.css' />">
+        <link rel="stylesheet" href="<c:url value='/css/style.css' />">
     </head>
     <body>
         <div id="wrapper">
             <div id="header">
-                <h1>タスクタスクタスク</h1>
+                <h1>なさねばならぬこと一覧</h1>
             </div>
             <div id="content">
                 ${param.content}
